@@ -1,3 +1,2 @@
-# henryshelton.github.io
-# hello world
-theme: minima
+# Henry-Shelton.github.io
+# hello world :D
