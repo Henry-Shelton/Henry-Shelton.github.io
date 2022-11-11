@@ -1,6 +1,6 @@
 #_config.yml
 
 url: 'https://Henry-Shelton.github.io/' # your main domain
-baseurl: '' # if you're using custom domain keep this blank example: baseurl: ''
+baseurl: 'index.html' # if you're using custom domain keep this blank example: baseurl: ''
 
 #theme:
