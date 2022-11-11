@@ -1,0 +1,6 @@
+#_config.yml
+
+url: 'https://jpbongiovanni.github.io/' # your main domain
+baseurl: 'PythonFunctionLibrary/' # if you're using custom domain keep this blank example: baseurl: ''
+
+theme: jekyll-theme-hacker
