@@ -17,154 +17,92 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-    <style>
-        body {
-            background: #f2f2f2;
-        }
-
-        .header {
-            background: linear-gradient(0deg, rgba(242, 242, 242, 1) 0%, rgba(172, 172, 172, 1) 100%);
-        }
-
-        .item {
-            background-color: transparent;
-        }
-
-        .name {
-            color: #3C3C3C;
-        }
-
-        .title {
-            color: #999999;
-        }
-
-        .description {
-            color: #676767;
-        }
-
-        .project-card {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            margin: 5%;
-        }
-
-        .project-card img {
-            width: 100%;
-        }
-
-        .project-card p {
-            text-align: left;
-            padding-top: 5px;
-            font-size: 14px;
-        }
-
-        .footer-basic {
-            background: #f2f2f2;
-        }
-
-        .social {
-            background: #f2f2f2;
-        }
-
-        .copyright {
-            text-align: center;
-        }
-    </style>
 </head>
-
-<body class="text-center" id="page-top" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="54">
+<body style ="background: #f2f2f2" class="text-center" id="page-top" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="54">
     <div id="about">
-        <header class="header">
-            <div class="col-md-6 col-lg-4 m-sm-auto item">
+        <header class="Back-clean" style ="background: linear-gradient(0deg, rgba(242,242,242,1) 0%, rgba(172,172,172,1) 100%);">
+            <div class="col-md-6 col-lg-4 m-sm-auto item" style ="background-color: transparent;">
                 <img class="rounded-circle" src="assets/img/me.jpg">
-                <h3 class="font-monospace text-capitalize text-black-50 name">Henry Shelton</h3>
-                <p class="title">Data Scientist</p>
+                <h3 class="font-monospace text-capitalize text-black-50 name" style="color: #3C3C3C">Henry Shelton</h3>
+                <p class="title" style="color: #999999">Data Scientist</p>
             </div>
-            <div class="container text-center">
-                <p class="lead font-monospace text-break text-capitalize text-center text-sm-center text-md-center text-lg-center text-xxl-center d-xl-flex justify-content-xl-center align-items-xl-start description">
+            <div class="container text-center" style ="background-color: transparent;">
+                <p class="lead font-monospace text-break text-capitalize text-center text-sm-center text-md-center text-lg-center text-xxl-center d-xl-flex justify-content-xl-center align-items-xl-start description" style="color: #676767">
                     Hi there! <br>
                     I'm a student at Durham University studying for an MSc Data Science.<br>
                     Specialising in ML & Bioinformatics [UG: BSc Biochemistry]<br>
                     Here are a few personal projects
                 </p>
-                <div class="intro"></div>
+                <div class="intro" style ="background: #f2f2f2"></div>
             </div>
         </header>
 
-        <div class="project-card">
-            <a href="https://github.com/Henry-Shelton/ChIPseq_CNN" target="_blank" rel="noopener noreferrer">
-                <img src="assets/img/cnnschematic.png">
-                <div class="w3-container w3-white">
-                    <p><b>ChIP-seq CNN & Pipeline</b></p>
-                    <p>ChIP-seq CNN binary peak classifier framework built in Python3 using a TensorFlow inception layer architecture.</p>
-                </div>
-            </a>
+          <a href="" target="https://github.com/Henry-Shelton/ChIPseq_CNN" rel="noopener noreferrer">
+            <div class="w3-third w3-container" style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center; ">
+              <img src="assets/img/cnnschematic.png" style="width:100%;" class="w3-hover-opacity">
+              <div class="w3-container w3-white" style="width: 100%; ">
+                <p style="text-align: left; padding-top:5px"><b>ChIP-seq CNN & Pipeline</b></p>
+                <p style="text-align: left; font-size: 14px;">ChIP-seq CNN binary peak classifier framework built in Python3 using a TensorFlow inception layer architecture.</p>
+              </div>
+            </div>
+          </a>
+
+        <div class="w3-row-padding" style="margin-left:5%; margin-right:5%; margin-top:5%">
+        <a href="https://github.com/Henry-Shelton/GymLocator" target="_blank" rel="noopener noreferrer">
+            <div class="w3-third w3-container w3-margin-bottom;" style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center;">
+	@@ -46,6 +57,7 @@ <h3 class="font-monospace text-capitalize text-black-50 name" style="color: #3C3
+              </div>
+            </div>
+          </a>
+
+          <a href="https://github.com/Henry-Shelton/Scrapy-Web-Scraper" target="_blank" rel="noopener noreferrer">
+            <div class="w3-third w3-container w3-margin-bottom;" style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center;">
+              <img src="assets/img/overheated.jpg" style="width:100%" class="w3-hover-opacity">
+	@@ -55,6 +67,7 @@ <h3 class="font-monospace text-capitalize text-black-50 name" style="color: #3C3
+              </div>
+            </div>
+          </a>
+
+          <a href="https://github.com/Henry-Shelton/McDonaldsPromoScript" target="_blank" rel="noopener noreferrer">
+            <div class="w3-third w3-container" style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center; ">
+              <img src="assets/img/burger.jpg" style="width:100%" class="w3-hover-opacity">
+	@@ -65,18 +78,8 @@ <h3 class="font-monospace text-capitalize text-black-50 name" style="color: #3C3
+            </div>
+          </a>
         </div>
 
-        <div class="project-card">
-            <a href="https://github.com/Henry-Shelton/GymLocator" target="_blank" rel="noopener noreferrer">
-                <img src="assets/img/overheated.jpg">
-                <div class="w3-container w3-white">
-                    <p><b>Gym Locator</b></p>
-                    <p>Find nearby gyms using this web app.</p>
-                </div>
-            </a>
-        </div>
+        <a href="https://covlock.com" target="_blank" rel="noopener noreferrer">
+            <div class="w3-third w3-container w3-margin-bottom" style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center; ">
+              <img src="assets/img/covlock.jpg" style="width:100%" class="w3-hover-opacity">
+              <div class="w3-container w3-white" style="width: 100%;">
+	@@ -86,15 +89,19 @@ <h3 class="font-monospace text-capitalize text-black-50 name" style="color: #3C3
+              </div>
+            </div>
+          </a>
 
-        <div class="project-card">
-            <a href="https://github.com/Henry-Shelton/Scrapy-Web-Scraper" target="_blank" rel="noopener noreferrer">
-                <img src="assets/img/overheated.jpg">
-                <div class="w3-container w3-white">
-                    <p><b>Scrapy Web Scraper</b></p>
-                    <p>Scrape websites easily with this Python tool.</p>
-                </div>
-            </a>
-        </div>
+      <a href="https://github.com/Henry-Shelton/REST-API-node.js-express-mongoDB-" target="_blank" rel="noopener noreferrer">
+        <div class="w3-row-padding" style="margin-left:5%; margin-right:5%; margin-top:3%">
+            <div class="w3-third w3-container w3-margin-bottom" style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center; ">
+              <img src="assets/img/widget.jpg" style="width:100%" class="w3-hover-opacity">
+              <div class="w3-container w3-white" style="width: 100%;">
+                <p style="text-align: left; padding-top:5px"><b>Embeddable Customisable Map Widget</b></p>
+                <p style="text-align: left; font-size: 12px;">An embedable map widget that shows the locations of points of interest and the closest one to the user. These POI could be updated by the owner.
+                  Included a login/logout system, user storage database, payment interface, extensive API usage, an interactive dashboard, and the widget itself [discontinued - never completed]</p>
+              </div>
+            </div>
+          </a>
 
-        <div class="project-card">
-            <a href="https://github.com/Henry-Shelton/McDonaldsPromoScript" target="_blank" rel="noopener noreferrer">
-                <img src="assets/img/burger.jpg">
-                <div class="w3-container w3-white">
-                    <p><b>McDonald's Promo Script</b></p>
-                    <p>Automate McDonald's promotions with this script.</p>
-                </div>
-            </a>
-        </div>
-
-        <div class="project-card">
-            <a href="https://covlock.com" target="_blank" rel="noopener noreferrer">
-                <img src="assets/img/covlock.jpg">
-                <div class="w3-container w3-white">
-                    <p><b>Covlock</b></p>
-                    <p>An informative website about COVID-19.</p>
-                </div>
-            </a>
-        </div>
-
-        <div class="project-card">
-            <a href="https://github.com/Henry-Shelton/REST-API-node.js-express-mongoDB-" target="_blank" rel="noopener noreferrer">
-                <img src="assets/img/widget.jpg">
-                <div class="w3-container w3-white">
-                    <p><b>Embeddable Customizable Map Widget</b></p>
-                    <p>An embeddable map widget that shows the locations of points of interest and the closest one to the user.</p>
-                </div>
-            </a>
         </div>
     </div>
-
-    <footer class="footer-basic">
+    <footer class="footer-basic" style ="background: #f2f2f2"><code></code>
+        <figure class="figure" style ="background: #f2f2f2"></figure>
         <div class="social">
-            <a href="https://www.linkedin.com/in/henry-shelton-8b9621195/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
-            <a href="henry: henry.shelton@outlook.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-envelope"></i></a>
-            <a href="https://github.com/Henry-Shelton" target="_blank" rel="noopener noreferrer"><i class="icon ion-social-github"></i></a>
-            <a href="https://twitter.com/HenryShelton_" target="_blank" rel="noopener noreferrer"><i class="icon ion-social-twitter"></i></a>
-        </div>
+            <a href="https://www.linkedin.com/in/henry-shelton-8b9621195/" target="_blank" rel="noopener noreferrer" style ="background: #f2f2f2"><i class="fab fa-linkedin"></i></a>
+            <a href="henry: henry.shelton@outlook.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-envelope" style ="background: #f2f2f2"></i></a>
+            <a href="https://github.com/Henry-Shelton" target="_blank" rel="noopener noreferrer"><i class="icon ion-social-github" style ="background: #f2f2f2"></i></a>
+            <a href="https://twitter.com/HenryShelton_" target="_blank" rel="noopener noreferrer"><i class="icon ion-social-twitter" style ="background: #f2f2f2"></i></a></div>
         <p class="copyright">Updated Sept 2022</p>
     </footer>
-
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/agency.js"></script>
 </body>
